@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "title": "Bingo On-Chain na WAX",
+    "subtitle": "Jogue Bingo descentralizado com prêmios em WAX e NFTs. Transparência total na blockchain, comunidade vibrante e prêmios reais.",
+    "cta_text": "Jogar Agora",
+    "cta_link": "https://test.cryptobingo.bet"
+  },
+  "features": [
+    {
+      "title": "100% On-Chain",
+      "description": "Toda partida é resolvida na blockchain WAX. Resultados transparentes e imutáveis.",
+      "icon": "shield"
+    },
+    {
+      "title": "Prêmios em Cripto",
+      "description": "Ganhe WAX e NFTs exclusivos. Saque seus prêmios diretamente para sua wallet.",
+      "icon": "trophy"
+    },
+    {
+      "title": "Comunidade",
+      "description": "Participe de nossa comunidade no Telegram e Discord. Bingo social e divertido.",
+      "icon": "users"
+    },
+    {
+      "title": "RNG Verificável",
+      "description": "Sorteio com Random Number Generator auditável. Cada número sorteado é comprovável.",
+      "icon": "check"
+    }
+  ],
+  "social": {
+    "telegram": "https://t.me/cryptobingo_bet",
+    "discord": "https://discord.gg/EYYhdRWUnm",
+    "twitter": "https://x.com/cryptobingo_bet",
+    "github": "https://github.com/iurineumann/cryptobingo"
+  }
+}
