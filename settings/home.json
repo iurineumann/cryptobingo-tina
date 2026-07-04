@@ -1,29 +1,49 @@
 {
   "hero": {
-    "title": "Bingo On-Chain na WAX",
-    "subtitle": "Jogue Bingo descentralizado com prêmios em WAX e NFTs. Transparência total na blockchain, comunidade vibrante e prêmios reais.",
-    "cta_text": "Jogar Agora",
+    "title": { "en": "On-Chain Bingo on WAX", "pt": "Bingo On-Chain na WAX", "zh": "WAX链上宾果" },
+    "subtitle": {
+      "en": "Play decentralized Bingo with WAX and NFT prizes. Full transparency on blockchain, vibrant community, real prizes.",
+      "pt": "Jogue Bingo descentralizado com prêmios em WAX e NFTs. Transparência total na blockchain, comunidade vibrante e prêmios reais.",
+      "zh": "玩去中心化宾果，赢取WAX和NFT奖励。区块链完全透明，社区活跃，奖励真实。"
+    },
+    "cta_text": { "en": "Play Now", "pt": "Jogar Agora", "zh": "立即游玩" },
     "cta_link": "https://test.cryptobingo.bet"
   },
   "features": [
     {
-      "title": "100% On-Chain",
-      "description": "Toda partida é resolvida na blockchain WAX. Resultados transparentes e imutáveis.",
+      "title": { "en": "100% On-Chain", "pt": "100% On-Chain", "zh": "100% 链上" },
+      "description": {
+        "en": "Every game is settled on the WAX blockchain. Transparent and immutable results.",
+        "pt": "Toda partida é resolvida na blockchain WAX. Resultados transparentes e imutáveis.",
+        "zh": "每局游戏在WAX区块链上结算。结果透明且不可篡改。"
+      },
       "icon": "shield"
     },
     {
-      "title": "Prêmios em Cripto",
-      "description": "Ganhe WAX e NFTs exclusivos. Saque seus prêmios diretamente para sua wallet.",
+      "title": { "en": "Crypto Prizes", "pt": "Prêmios em Cripto", "zh": "加密奖励" },
+      "description": {
+        "en": "Win WAX and exclusive NFTs. Withdraw prizes directly to your wallet.",
+        "pt": "Ganhe WAX e NFTs exclusivos. Saque seus prêmios diretamente para sua wallet.",
+        "zh": "赢取WAX和独家NFT。奖励可直接提现到您的钱包。"
+      },
       "icon": "trophy"
     },
     {
-      "title": "Comunidade",
-      "description": "Participe de nossa comunidade no Telegram e Discord. Bingo social e divertido.",
+      "title": { "en": "Community", "pt": "Comunidade", "zh": "社区" },
+      "description": {
+        "en": "Join our Telegram and Discord community. Social and fun Bingo experience.",
+        "pt": "Participe de nossa comunidade no Telegram e Discord. Bingo social e divertido.",
+        "zh": "加入我们的Telegram和Discord社区。社交宾果，乐趣无穷。"
+      },
       "icon": "users"
     },
     {
-      "title": "RNG Verificável",
-      "description": "Sorteio com Random Number Generator auditável. Cada número sorteado é comprovável.",
+      "title": { "en": "Verifiable RNG", "pt": "RNG Verificável", "zh": "可验证随机数" },
+      "description": {
+        "en": "Auditable Random Number Generator. Every draw is provably fair.",
+        "pt": "Sorteio com Random Number Generator auditável. Cada número sorteado é comprovável.",
+        "zh": "可审计的随机数生成器。每次抽奖均可验证公平性。"
+      },
       "icon": "check"
     }
   ],
