@@ -1,0 +1,28 @@
+---
+title: Prova de Fairness
+description: Como o CryptoBingo garante resultados justos e verificáveis.
+---
+
+## 1. Visão Geral
+
+Sistema provably fair onde cada resultado é verificável na blockchain WAX.
+
+## 2. Funcionamento
+
+Worker chama startdraw → contrato solicita aleatoriedade ao oráculo orng.wax → oráculo gera seed RSA → contrato deriva 75 bolas deterministicamente.
+
+## 3. Verificação
+
+Verifique resultados via explorador de blocos WAX ou script de verificação open-source.
+
+## 4. Seeds
+
+Server seed comprometido via SHA-256. Client seed contribuído pelo jogador. Nonce = ID único do jogo.
+
+## 5. Código Fonte
+
+WASM do contrato no GitHub. Decompilável com wasm2wat.
+
+## 6. Limitações
+
+Oráculo WAX é oficial da rede — confiança na rede, não no operador.

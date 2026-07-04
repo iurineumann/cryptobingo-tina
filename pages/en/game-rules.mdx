@@ -1,0 +1,36 @@
+---
+title: Game Rules
+description: Official rules for all CryptoBingo game modes.
+---
+
+## 1. Bingo Card
+
+Each card is a 5x5 grid (25 numbers). The center cell (FREE SPACE) is always marked. Numbers are drawn from 1-75 pool, 15 per column (B:1-15, I:16-30, N:31-45, G:46-60, O:61-75).
+
+## 2. Draw Modes
+
+Standard: 75 balls drawn. First to complete 1+ patterns wins. Golden Ball mode adds a special 76th ball that multiplies winnings. Multi-Match: stages with progressive prizes.
+
+## 3. Patterns
+
+Patterns define winning conditions. Multiple patterns can be active per game. Each pattern has a weight (hundredths) affecting prize calculation. Patterns are validated on-chain against the drawn balls bitmask.
+
+## 4. Combos
+
+Combinations of patterns that trigger bonus awards. Combo weights are on-chain in gametype configurations. Maximum weight per card = max(pattern weight, combo weight, stage weight).
+
+## 5. Prize Calculation
+
+Prize = ticket price × base_multiplier × weight/100 × golden_multiplier. RTP: 85%. GGR: 15%. Minimum payout: ticket price. Maximum payout determined by treasury balance.
+
+## 6. Stages (Multi-Match)
+
+Stages are sequential prize levels. Advancing to next stage requires specific conditions. Stage weights are independent of pattern/combo weights.
+
+## 7. FREE SPACE
+
+The center cell (bit 12 in the 5x5 bitmask) is always considered marked and counts toward any pattern requiring that position.
+
+## 8. Game Phases
+
+Funding → Locking → Drawing → Payout → Closed. Game resolution is handled by the worker-game-loop service. Oracle (orng.wax) provides cryptographically signed randomness.

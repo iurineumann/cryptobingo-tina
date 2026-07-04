@@ -1,0 +1,36 @@
+---
+title: Regras do Jogo
+description: Regras oficiais para todas as modalidades do CryptoBingo.
+---
+
+## 1. Cartela
+
+Cada cartela é uma grade 5x5 (25 números). Centro (FREE SPACE) sempre marcado. Números extraídos de 1-75, 15 por coluna (B:1-15, I:16-30, N:31-45, G:46-60, O:61-75).
+
+## 2. Modos de Sorteio
+
+Standard: 75 bolas sorteadas. Golden Ball: 76ª bola especial multiplica prêmios. Multi-Match: estágios com prêmios progressivos.
+
+## 3. Padrões
+
+Padrões definem condições de vitória. Múltiplos padrões ativos por jogo. Cada padrão tem peso (centésimos). Validados on-chain contra bitmask de bolas sorteadas.
+
+## 4. Combinações
+
+Combinações de padrões que ativam bônus. Pesos de combinação on-chain no gametype. Peso máximo por cartela = max(peso padrão, peso combo, peso estágio).
+
+## 5. Cálculo de Prêmio
+
+Prêmio = preço do ticket × base_multiplier × weight/100 × golden_multiplier. RTP: 85%. GGR: 15%.
+
+## 6. Estágios (Multi-Match)
+
+Níveis sequenciais de prêmios. Pesos independentes de padrões/combos.
+
+## 7. FREE SPACE
+
+Centro (bit 12) sempre considerado marcado para qualquer padrão.
+
+## 8. Fases do Jogo
+
+Funding → Locking → Drawing → Payout → Closed. Resolução pelo worker-game-loop. Oráculo orng.wax provê aleatoriedade criptografada RSA.

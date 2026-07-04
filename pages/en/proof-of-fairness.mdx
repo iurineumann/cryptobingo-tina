@@ -1,0 +1,28 @@
+---
+title: Proof of Fairness
+description: How CryptoBingo ensures fair and verifiable game outcomes.
+---
+
+## 1. Overview
+
+CryptoBingo uses a provably fair system where every game outcome is verifiable on the WAX blockchain.
+
+## 2. How It Works
+
+Each game round: The worker calls startdraw on the smart contract; the contract requests randomness from the orng.wax oracle; the oracle generates an RSA-signed seed; the contract derives 75 balls from the seed deterministically.
+
+## 3. Verification
+
+Anyone can verify game results via: the WAX block explorer by checking orng.wax calls; or by running our open-source verification script.
+
+## 4. Seeds
+
+The server seed is committed via SHA-256 hash before the game starts. The client seed is contributed by players via their signed transactions. The nonce is the unique game ID.
+
+## 5. Source Code
+
+The smart contract WASM is available on GitHub. It can be decompiled with wasm2wat for independent audit. Builds are reproducible via our Docker container.
+
+## 6. Limitations
+
+The orng.wax oracle is the official WAX network oracle — trust is placed in the network, not the operator. The contract source is public WASM; the C++ source is available upon request for verified auditors.

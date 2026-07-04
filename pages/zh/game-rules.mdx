@@ -1,0 +1,36 @@
+---
+title: 游戏规则
+description: CryptoBingo 所有游戏模式的官方规则。
+---
+
+## 1. 宾果卡
+
+每张卡为5x5网格（25个数字）。中心（FREE SPACE）始终标记。数字从1-75池中抽取，每列15个（B:1-15, I:16-30, N:31-45, G:46-60, O:61-75）。
+
+## 2. 抽奖模式
+
+Standard：抽取75个球。Golden Ball：第76个特殊球倍乘奖金。Multi-Match：分级渐进奖金。
+
+## 3. 模式
+
+模式定义获胜条件。每局游戏可激活多个模式。每个模式有权重（百分之一）。模式在链上根据抽球位图验证。
+
+## 4. 组合
+
+触发奖励的模式组合。组合权重在游戏类型的链上配置。每张卡最大权重 = max(模式权重, 组合权重, 阶段权重)。
+
+## 5. 奖金计算
+
+奖金 = 票券价格 × base_multiplier × weight/100 × golden_multiplier。RTP：85%。GGR：15%。
+
+## 6. 阶段（Multi-Match）
+
+顺序奖金级别。权重独立于模式/组合。
+
+## 7. FREE SPACE
+
+中心（第12位）始终被视为已标记。
+
+## 8. 游戏阶段
+
+Funding → Locking → Drawing → Payout → Closed。由 worker-game-loop 服务处理。orng.wax 预言机提供 RSA 签名随机数。
