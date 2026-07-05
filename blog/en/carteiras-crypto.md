@@ -9,7 +9,7 @@ tags:
   - beginner
   - WAX
   - crypto
-cover: "/images/blog/carteiras-crypto/cover.webp"
+cover: "/images/blog/crypto-wallets/cover.webp"
 category: "beginner"
 reading_time: 8
 related:
@@ -19,19 +19,19 @@ related_tutorials:
   - criar-carteira-wax
   - configurar-carteira
 images:
-  - src: "/images/blog/carteiras-crypto/wallet-types.webp"
+  - src: "/images/blog/crypto-wallets/wallet-types.webp"
     alt: "Comparison of custodial, hybrid, and self-custody wallet models"
     caption: "Three wallet models — custodial, hybrid (passkeys), and self-custody — each balancing convenience and control differently"
-  - src: "/images/blog/carteiras-crypto/wcw-passkeys.webp"
+  - src: "/images/blog/crypto-wallets/wcw-passkeys.webp"
     alt: "WAX Cloud Wallet passkey setup screen showing Face ID and Touch ID options"
     caption: "WAX Cloud Wallet uses passkeys (Face ID / Touch ID) instead of passwords for secure sign-in"
-  - src: "/images/blog/carteiras-crypto/anchor-desktop.webp"
+  - src: "/images/blog/crypto-wallets/anchor-desktop.webp"
     alt: "Anchor Wallet desktop interface showing account management"
     caption: "Anchor Wallet desktop — full self-custody wallet for Antelope blockchains like WAX"
-  - src: "/images/blog/carteiras-crypto/decision-flow.webp"
+  - src: "/images/blog/crypto-wallets/decision-flow.webp"
     alt: "Decision flowchart: which WAX wallet to choose based on your needs"
     caption: "Flowchart to help you choose the best WAX wallet for your profile"
-  - src: "/images/blog/carteiras-crypto/ledger-anchor.webp"
+  - src: "/images/blog/crypto-wallets/ledger-anchor.webp"
     alt: "Ledger hardware wallet connected to Anchor Wallet on desktop"
     caption: "Anchor Wallet integrates with Ledger hardware wallets for cold storage security"
 ---
@@ -201,49 +201,6 @@ Connecting your wallet to CryptoBingo is simple:
 
 Your tickets, wins, and prizes are linked to your WAX blockchain account — provably fair and verifiable on-chain.
 
-## FAQ
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Which WAX wallet is best for beginners?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "WAX Cloud Wallet is the best choice for beginners. It uses passkeys (Face ID/Touch ID) instead of passwords, takes under 30 seconds to set up, and is free to create. You can always export your private key to Anchor later when you want more control."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is WAX Cloud Wallet safe?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The new WAX Cloud Wallet (2026) uses passkeys — your private key is protected by your device's secure enclave and never leaves your device. You can optionally save a 12-word mnemonic phrase for recovery and export your private key. It is a hybrid model: no longer purely custodial, but not fully self-custody unless you export the key."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use a Ledger hardware wallet with WAX?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Install the EOS app on your Ledger device (WAX uses the same key algorithm), then connect it to Anchor Wallet on desktop. Your private keys stay on the Ledger — Anchor acts as an intermediary, and every transaction must be physically confirmed by pressing the Ledger buttons. This is the most secure way to store WAX tokens."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I migrate from WAX Cloud Wallet to Anchor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Two ways: (1) Export your private key from WAX Cloud Wallet and import it directly into Anchor Desktop via 'Import Private Key'. (2) Generate new keys in Anchor first, then use the WAX Cloud Wallet's Hard Claim flow to assign those keys to your account. Method 1 is simpler for most users."
-      }
-    }
-  ]
-}
-```
-
 ## Security Tips
 
 - **Seed phrase:** never digitize it. Write it on paper and store it in a safe place — a fireproof safe is even better. Never photograph it or store it in cloud notes
@@ -265,7 +222,7 @@ Your tickets, wins, and prizes are linked to your WAX blockchain account — pro
 
 **Our recommendation:** start with WAX Cloud Wallet. Play CryptoBingo, get comfortable with the ecosystem. When you accumulate more tokens or want full control, export your private key to Anchor. For significant holdings, add a Ledger for cold storage.
 
-Ready to start? Follow our [step-by-step tutorial to create your first WAX wallet](/blog/criar-carteira-wax).
+Ready to start? Follow our [step-by-step tutorial to create your first WAX wallet](/en/tutorials/create-wax-wallet).
 
 ---
 *Verified: July 2026. All information validated against official WAX documentation (docs.wax.io), Anchor Wallet (greymass.com), and WAX io official announcements. Passkeys, Vault, hard claim flow, Ledger integration — all confirmed current as of Q3 2026.*

@@ -1,7 +1,7 @@
 ---
 title: "What is Blockchain? A Beginner's Guide to the Technology Behind Fair Gaming"
 description: "Blockchain explained simply: how it works, why it matters for gaming, and how CryptoBingo uses it for fair draws everyone can verify"
-date: "2026-07-07T10:00:00Z"
+date: "2026-07-05T10:00:00Z"
 author: "CryptoBingo Team"
 tags:
   - blockchain
@@ -110,7 +110,7 @@ CryptoBingo solves this by putting the entire game on the WAX blockchain:
 
 3. **Zero hidden fees:** the game rules are coded in the smart contract and visible to everyone. Ticket prices, prize structures, and payout rules are immutable.
 
-4. **Total transparency:** every buy, every draw, every prize is recorded on the public blockchain. You can verify the entire history of any game. See our [security guide](/blog/cryptobingo-e-seguro) for more.
+4. **Total transparency:** every buy, every draw, every prize is recorded on the public blockchain. You can verify the entire history of any game. See our [security guide](/en/blog/is-cryptobingo-safe) for more.
 
 5. **No trust required:** you do not need to trust the CryptoBingo team. The code is the guarantee. As the saying goes: *"Don't trust, verify."*
 
@@ -130,7 +130,7 @@ Blockchain gaming exists in a regulatory gray area in many jurisdictions. Crypto
 
 ### How do I get started on WAX?
 
-Create a WAX Cloud Wallet at mycloudwallet.com. The process takes about two minutes — choose a username, set up a passkey (Face ID or fingerprint), and your wallet is ready. No email, no password, no seed phrase required for basic use. Follow our [wallet tutorial](/tutorials/criar-carteira-wax) for step-by-step instructions.
+Create a WAX Cloud Wallet at mycloudwallet.com. The process takes about two minutes — choose a username, set up a passkey (Face ID or fingerprint), and your wallet is ready. No email, no password, no seed phrase required for basic use. Follow our [wallet tutorial](/en/tutorials/create-wax-wallet) for step-by-step instructions.
 
 ## Summary
 
@@ -138,7 +138,7 @@ Blockchain is the infrastructure that makes CryptoBingo possible: fair draws, in
 
 The difference is that with blockchain, you can verify everything yourself. Every ticket, every draw, every prize is recorded in the public notebook — visible to everyone, alterable by no one.
 
-Ready to play? [Create your WAX wallet](/tutorials/criar-carteira-wax) and get your first ticket.
+Ready to play? [Create your WAX wallet](/en/tutorials/create-wax-wallet) and get your first ticket.
 
 ---
 

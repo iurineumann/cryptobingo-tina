@@ -1,7 +1,7 @@
 ---
 title: "Provably Fair: How CryptoBingo Ensures Fair Draws"
 description: "You don't need to trust us — you can verify. Understand CryptoBingo's Provably Fair system"
-date: "2026-07-21T10:00:00Z"
+date: "2026-07-05T10:00:00Z"
 author: "CryptoBingo Team"
 tags:
   - provably-fair

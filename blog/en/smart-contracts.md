@@ -1,7 +1,7 @@
 ---
 title: "Smart Contracts Explained: The Code That Guarantees Fair Play"
 description: "What smart contracts are and how they ensure every CryptoBingo draw is fair, automatic, and immutable"
-date: "2026-07-31T10:00:00Z"
+date: "2026-07-05T10:00:00Z"
 author: "CryptoBingo Team"
 tags:
   - smart-contracts
