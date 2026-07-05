@@ -1,13 +1,18 @@
 ---
-title: Como Funciona o RNG do CryptoBingo
-description: Explicação detalhada sobre o sistema de Random Number Generator usado no CryptoBingo para garantir sorteios justos e verificáveis.
-date: 2026-06-20T10:00:00Z
-author: Equipe CryptoBingo
-cover: /og-image.png
+title: "Como Funciona o RNG do CryptoBingo"
+description: "Explicação detalhada sobre o sistema de Random Number Generator usado no CryptoBingo para garantir sorteios justos e verificáveis."
+date: "2026-06-20T10:00:00Z"
+author: "Equipe CryptoBingo"
+cover: ""
 tags:
-  - tecnologia
   - rng
-  - segurança
+  - blockchain
+  - security
+related: []
+related_tutorials: []
+images: []
+category: "technology"
+reading_time: 3
 ---
 
 ## Sorteios Verificáveis

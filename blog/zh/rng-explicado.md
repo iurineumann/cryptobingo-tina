@@ -1,13 +1,18 @@
 ---
-title: CryptoBingo RNG 工作原理
-description: 详细解释 CryptoBingo 使用的随机数生成器系统，确保公平且可验证的开奖。
-date: 2026-06-20T10:00:00Z
-author: CryptoBingo 团队
-cover: /og-image.png
+title: "CryptoBingo RNG 工作原理"
+description: "详细解释 CryptoBingo 使用的随机数生成器系统，确保公平且可验证的开奖。"
+date: "2026-06-20T10:00:00Z"
+author: "CryptoBingo 团队"
+cover: ""
 tags:
-  - 技术
   - rng
-  - 安全
+  - blockchain
+  - security
+related: []
+related_tutorials: []
+images: []
+category: "technology"
+reading_time: 3
 ---
 
 ## 可验证的开奖

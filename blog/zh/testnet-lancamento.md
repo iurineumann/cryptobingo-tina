@@ -1,13 +1,18 @@
 ---
-title: CryptoBingo 进入测试网
-description: 宣布 CryptoBingo 在 WAX 区块链上启动测试网。提供 WAX 和 NFT 的真实奖品。
-date: 2026-06-15T10:00:00Z
-author: CryptoBingo 团队
-cover: /og-image.png
+title: "CryptoBingo 进入测试网"
+description: "宣布 CryptoBingo 在 WAX 区块链上启动测试网。提供 WAX 和 NFT 的真实奖品。"
+date: "2026-06-15T10:00:00Z"
+author: "CryptoBingo 团队"
+cover: ""
 tags:
-  - 发布
-  - 测试网
   - wax
+  - blockchain
+  - community
+related: []
+related_tutorials: []
+images: []
+category: "community"
+reading_time: 3
 ---
 
 ## 测试网开放

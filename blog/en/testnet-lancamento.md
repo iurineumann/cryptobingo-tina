@@ -1,13 +1,18 @@
 ---
-title: CryptoBingo Enters Testnet
-description: Announcing the CryptoBingo testnet launch on the WAX blockchain. Real prizes in WAX and NFTs.
-date: 2026-06-15T10:00:00Z
-author: CryptoBingo Team
-cover: /og-image.png
+title: "CryptoBingo Enters Testnet"
+description: "Announcing the CryptoBingo testnet launch on the WAX blockchain. Real prizes in WAX and NFTs."
+date: "2026-06-15T10:00:00Z"
+author: "CryptoBingo Team"
+cover: ""
 tags:
-  - launch
-  - testnet
   - wax
+  - blockchain
+  - community
+related: []
+related_tutorials: []
+images: []
+category: "community"
+reading_time: 3
 ---
 
 ## Testnet Open

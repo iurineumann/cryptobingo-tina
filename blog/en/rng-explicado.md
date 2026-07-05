@@ -1,13 +1,18 @@
 ---
-title: How CryptoBingo RNG Works
-description: Detailed explanation of the Random Number Generator system used in CryptoBingo to ensure fair and verifiable draws.
-date: 2026-06-20T10:00:00Z
-author: CryptoBingo Team
-cover: /og-image.png
+title: "How CryptoBingo RNG Works"
+description: "Detailed explanation of the Random Number Generator system used in CryptoBingo to ensure fair and verifiable draws."
+date: "2026-06-20T10:00:00Z"
+author: "CryptoBingo Team"
+cover: ""
 tags:
-  - technology
   - rng
+  - blockchain
   - security
+related: []
+related_tutorials: []
+images: []
+category: "technology"
+reading_time: 3
 ---
 
 ## Verifiable Draws
