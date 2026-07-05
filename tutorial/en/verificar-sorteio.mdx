@@ -1,0 +1,56 @@
+---
+title: "How to Verify CryptoBingo Draws"
+description: "Learn how to independently verify that every draw was fair using Provably Fair"
+order: 8
+cover: ""
+related:
+  - provably-fair
+  - rng-explicado
+  - cryptobingo-e-seguro
+images: []
+---
+
+## Independent Verification
+
+Anyone can verify that a draw was fair. You do not need to trust us — the data is on the blockchain.
+
+## What to Verify
+
+For each draw, you can check:
+
+1. **Pre-draw commit:** was the server seed hash recorded before the draw?
+2. **Oracle number:** was the random number signed by the orng.wax oracle?
+3. **Your seed:** is your ticket's personal seed correct?
+4. **Final result:** does the combined hash produce the result you saw?
+
+## Step by Step
+
+**1. Find the match**
+
+On the site, go to "My History" and click the match ID. Copy the Transaction ID.
+
+**2. Check on block explorer**
+
+Go to [wax.bloks.io](https://wax.bloks.io) and paste the Transaction ID.
+
+**3. Check the commit**
+
+Look for the `startdraw` or `lockgame` action. The server seed hash is there.
+
+**4. Check the oracle**
+
+Look for the `drawrand` action. See the random number signed by the oracle.
+
+**5. Check the result**
+
+Look for the `claimwin` action. See the drawn numbers and prize paid.
+
+## Tools
+
+- **WAX Block Explorer:** wax.bloks.io — transactions, actions, raw data
+- **CryptoBingo Verifier** (coming soon): open-source tool that automates verification
+- **Verification script:** code on GitHub for programmatic verification
+
+## Tip
+
+Take a screenshot of the hash before the draw starts. After the draw, compare. If they match, the draw was not manipulated.

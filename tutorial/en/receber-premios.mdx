@@ -1,0 +1,49 @@
+---
+title: "How to Receive Prizes on CryptoBingo"
+description: "Understand how prizes are automatically paid and how to verify your winnings"
+order: 7
+cover: ""
+related:
+  - rtp-85-porcento
+  - depositar-sacar
+  - verificar-sorteio
+images: []
+---
+
+## Auto-Prizes
+
+On CryptoBingo, you do not need to request your prize. The contract pays automatically.
+
+## How It Works
+
+1. The draw ends
+2. The contract evaluates all cards
+3. For each winning card, the contract calculates the prize:
+   `price_paid × base_multiplier × (weight/100) × golden_multiplier`
+4. The contract transfers WAX to your wallet
+5. Done — the balance appears automatically
+
+## Where to See Your Prizes
+
+- **On the site:** "My Prizes" or "My History" page
+- **In the wallet:** balance increases automatically
+- **On block explorer:** see the prize transaction at [wax.bloks.io](https://wax.bloks.io)
+
+## Ceiling per Card
+
+Each gametype has a maximum prize ceiling. If the calculation exceeds the ceiling, the value is capped at the contract-defined limit.
+
+## Common Issues
+
+**I did not receive the prize:**
+1. Verify you actually won (completed patterns × drawn numbers)
+2. Check your wallet — the balance may have increased silently
+3. Wait for WAX finality (~2 seconds)
+4. Check the block explorer for the transaction
+
+**Prize smaller than expected:**
+- May be the gametype ceiling
+- Check the Golden Ball multiplier (if applicable)
+- Check the completed pattern weight
+
+If the problem persists, contact support with the match ID.

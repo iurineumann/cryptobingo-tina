@@ -1,0 +1,56 @@
+---
+title: "Como Verificar Sorteios no CryptoBingo"
+description: "Aprenda a verificar de forma independente que cada sorteio foi justo usando Provably Fair"
+order: 8
+cover: ""
+related:
+  - provably-fair
+  - rng-explicado
+  - cryptobingo-e-seguro
+images: []
+---
+
+## Verificação Independente
+
+Qualquer pessoa pode verificar que um sorteio foi justo. Você não precisa confiar em nós — os dados estão na blockchain.
+
+## O Que Verificar
+
+Para cada sorteio, você pode conferir:
+
+1. **Commit pré-sorteio:** o hash do seed do servidor foi registrado antes do sorteio?
+2. **Número do oracle:** o número aleatório foi assinado pelo oracle orng.wax?
+3. **Seu seed:** o seed pessoal do seu ticket está correto?
+4. **Resultado final:** o hash combinado produz o resultado que você viu?
+
+## Passo a Passo
+
+**1. Encontre a partida**
+
+No site, vá em "My History" e clique no ID da partida. Copie o Transaction ID.
+
+**2. Verifique no explorador de blocos**
+
+Acesse [wax.bloks.io](https://wax.bloks.io) e cole o Transaction ID.
+
+**3. Confira o commit**
+
+Procure pela action `startdraw` ou `lockgame`. O hash do seed do servidor está lá.
+
+**4. Confira o oracle**
+
+Procure pela action `drawrand`. Veja o número aleatório assinado pelo oracle.
+
+**5. Confira o resultado**
+
+Procure pela action `claimwin`. Veja os números sorteados e o prêmio pago.
+
+## Ferramentas
+
+- **WAX Block Explorer:** wax.bloks.io — transações, actions, dados brutos
+- **CryptoBingo Verifier** (em breve): ferramenta open-source que automatiza a verificação
+- **Script de verificação:** código no GitHub para verificação programática
+
+## Dica
+
+Tire um print do hash antes do sorteio começar. Depois do sorteio, compare. Se baterem, o sorteio não foi manipulado.
