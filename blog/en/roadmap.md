@@ -71,7 +71,7 @@ This roadmap reflects our current priorities and is subject to adjustment based 
 ## Q2 2027+
 
 **Scale**
-- [ ] Expansion to other Antelope blockchains (EOS, Telos)
+- [ ] Expansion to other Antelope blockchains (Vaulta, Telos)
 - [ ] DEX integration
 - [ ] Affiliate and referral program
 

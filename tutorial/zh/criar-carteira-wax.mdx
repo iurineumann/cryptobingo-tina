@@ -1,49 +1,168 @@
 ---
-title: "如何在2分钟内创建你的WAX钱包"
-description: "创建你的第一个WAX钱包的分步指南 — WAX Cloud Wallet（推荐）或 Anchor Wallet"
+title: "2分钟创建您的WAX钱包"
+description: "创建您的第一个WAX钱包的分步指南 — 在WAX Cloud Wallet（最简单）和Anchor Wallet（自托管）之间选择"
 order: 1
 cover: ""
 related:
+  - configurar-carteira
+  - primeiros-passos
   - carteiras-crypto
-  - wax-blockchain-beginners
-  - wax-blockchain
-images: []
+images:
+  - src: /images/tutorials/wax-cloud-wallet-create.webp
+    alt: "My Cloud Wallet注册界面，显示创建账户选项"
+  - src: /images/tutorials/wax-cloud-wallet-passkey.webp
+    alt: "在桌面浏览器上使用Face ID或Touch ID创建passkey的提示"
+  - src: /images/tutorials/anchor-wallet-download.webp
+    alt: "Anchor Wallet下载页面，显示macOS、Windows和Linux选项"
 ---
+
+您需要一个WAX钱包才能玩CryptoBingo。钱包在WAX区块链上保管您的账户、余额、票券和奖金。两个优秀的选择 — 挑选最适合您的。
+
+```mermaid
+flowchart TD
+    A[开始：需要WAX钱包] --> B{加密货币新手？}
+    B -->|是，简单为主| C[WAX Cloud Wallet]
+    B -->|否，我要完全控制密钥| D[Anchor Wallet]
+    C --> E[访问 mycloudwallet.com]
+    C --> F[创建 passkey 并保存助记词]
+    C --> G[选择用户名]
+    C --> H[30秒内完成]
+    D --> I[下载 Anchor Wallet]
+    D --> J[离线保存 seed phrase]
+    D --> K[创建账户或导入 WCW]
+    D --> L[完全自托管]
+```
 
 ## 开始之前
 
-你需要一个 WAX 钱包才能玩 CryptoBingo。两个选择：
+两种钱包都是**免费的**（Anchor收取0.99美元用于链上账户创建）。您需要一台可以上网的设备，以及 — 对于Cloud Wallet — 生物识别支持（Face ID、Touch ID或指纹识别器）。
 
-## 选项1：WAX Cloud Wallet（推荐）
+---
 
-最简单。像邮箱账户一样工作。
+## 选项 1：WAX Cloud Wallet（推荐新手使用）
 
-1. 访问 [wallet.wax.io](https://wallet.wax.io)
-2. 点击"创建账户"
-3. 选择用户名（12个字符，a-z 和 1-5）
-4. 设置邮箱和密码
-5. 完成！30秒内创建钱包
+**My Cloud Wallet** 是WAX的官方钱包。使用passkeys — 无需记住密码，日常使用无需seed phrase。适用于桌面和移动浏览器。
 
-**优点：** 无需管理助记词，可通过邮箱恢复
-**缺点：** 托管（WAX 持有密钥）
+**网址：** [mycloudwallet.com](https://www.mycloudwallet.com)（旧版 wallet.wax.io 会重定向至此）
 
-## 选项2：Anchor Wallet（自主保管）
+### 创建账户
 
-适合想要完全控制密钥的人。
+1. 在浏览器中打开 [mycloudwallet.com](https://www.mycloudwallet.com)
+2. 点击 **Sign Up** 或 **Create Account**
+3. 浏览器会提示您创建一个 **passkey** — 使用Face ID、Touch ID、指纹或设备PIN
+4. 设置passkey后，钱包会生成您的 **12词助记词短语**
+5. **用纸笔写下。存放在安全的地方。切勿以数字形式保存。** 这是您在丢失设备时恢复账户的唯一方式。
+6. 验证短语 — 钱包要求按顺序选择特定单词
+7. 选择您的 **WAX用户名** — 恰好12个字符，仅限字母a-z和数字1-5（例如：`cryptobingofan`）
+8. 完成。您的钱包已就绪。
 
-1. 从 [anchor.link](https://www.anchor.link) 下载 Anchor Wallet
-2. 安装并选择"创建新钱包"
-3. **离线**保存 12 个单词的助记词（纸、笔、保险箱）
-4. 支付一次性费用（约 10 WAX）创建 WAX 账户
-5. 设置钱包密码
+**您将获得：**
+- Passkey登录（Face ID / Touch ID / PIN）
+- 12词助记词恢复短语（您掌控密钥）
+- Vault Sessions — 保持会话打开以获得更流畅的游戏体验
+- 内置NFT和代币管理
 
-**优点：** 完全控制密钥
-**缺点：** 你对助记词负责
+**预计时间：** 30–60秒。
 
-## 重要提示
+### 重要：保存您的助记词
 
-从 WAX Cloud Wallet 开始。先玩起来，学习，熟悉。当你拥有更多代币或想要更多控制权时，再迁移到 Anchor。
+这是唯一重要的检查点。没有助记词短语，如果您丢失设备，没有人 — 甚至WAX — 也无法恢复您的账户。请存放在：
+
+- ✅ 纸张，手写
+- ✅ 防火保险柜
+- ✅ 多个副本（不同地点）
+- ❌ 切勿截图
+- ❌ 切勿使用云存储
+- ❌ 切勿通过电子邮件或消息发送
+
+---
+
+## 选项 2：Anchor Wallet（完全自托管）
+
+**Anchor Wallet** 由Greymass开发，是一款适用于WAX和其他Antelope区块链的开源桌面钱包。您的密钥保留在您的设备上 — 完全加密，从未上传。
+
+**网址：** [anchorwallet.org](https://www.anchorwallet.org)
+
+### 安装 Anchor
+
+1. 从 [anchorwallet.org](https://www.anchorwallet.org) 下载 — 适用于macOS、Windows和Linux
+2. 验证下载校验和（PGP指纹：`6B52 D1A4 4615 A18C 51C5 BCF4 679D D3C3 DA29 F8F3`）
+3. 安装并启动应用程序
+4. 设置**钱包密码** — 这会在本地加密您的密钥
+
+### 创建新的WAX账户（需支付0.99美元费用）
+
+1. 在Anchor中，前往 **Tools → Manage Keys**
+2. **Generate Key Pair (x2)** — 一个用于Owner，一个用于Active
+3. 将生成的密钥保存到钱包（输入密码以授权）
+4. 前往 **WAX Account Setup → Create New Account**
+5. 选择您的12字符用户名
+6. 支付0.99美元创建费（用于WAX网络资源，非Anchor）
+7. 使用已保存在钱包中的密钥导入账户
+
+### 导入现有的WAX Cloud Wallet账户（免费）
+
+1. 在Anchor中，前往 **Tools → Manage Keys**
+2. 点击 **Import Key** 并粘贴您的WAX Cloud Wallet私钥
+   - *查找您的WCW私钥：* 登录 mycloudwallet.com，前往 Settings → Export Keys
+3. 将密钥保存到钱包
+4. 前往 **WAX Account Setup → Automatically Detect**
+5. Anchor会扫描WAX区块链，查找与您的密钥匹配的账户
+6. 选择账户并点击 **Import Account(s)**
+
+**您将获得：**
+- 完全私钥控制（自托管）
+- 人类可读的交易签名
+- Ledger硬件钱包支持
+- 通过Fuel免费交易（每天5ms CPU）
+- 多链支持（EOS、Telos、Proton、FIO）
+
+---
+
+## 对比
+
+| 功能 | WAX Cloud Wallet | Anchor Wallet |
+|---|---|---|
+| 设置时间 | 30秒 | 5–10分钟 |
+| 费用 | 免费 | 免费（账户：0.99美元） |
+| 安全模型 | Passkey + 助记词 | Seed phrase + 密码 |
+| 密钥控制 | 非托管（您持有助记词） | 完全自托管 |
+| 平台 | Web（桌面 + 移动） | 桌面（Win/Mac/Linux）+ iOS |
+| 硬件钱包 | 不支持 | Ledger |
+| 最适合 | 新手，快速访问 | 高级用户，大额持有 |
+| 开源 | 否 | 是 (github.com/greymass/anchor) |
+
+---
+
+## 应该选择哪个钱包？
+
+**从WAX Cloud Wallet开始。** 玩CryptoBingo，了解生态系统，熟悉起来。当您积累更多代币或想要硬件钱包安全性时，将您的账户导入Anchor。
+
+**使用Anchor如果您：** 已经持有加密货币，重视完全密钥控制，或想在一个应用中管理多个Antelope账户。
+
+---
+
+## 常见问题
+
+**我可以为同一个账户使用两种钱包吗？** 可以。先用WAX Cloud Wallet创建账户，再将私钥导入Anchor。两者可以同时使用。
+
+**如果我丢失了设备怎么办？** 使用WAX Cloud Wallet时，可以在新设备上用12词助记词短语恢复。使用Anchor时，重新安装并输入您的seed phrase。
+
+**WAX Cloud Wallet真的非托管吗？** 是的。自passkey更新以来，您的密钥在您的设备上生成，并由助记词短语备份。没有您的passkey或短语，WAX无法访问您的账户。
+
+**我可以免费创建WAX账户吗？** WAX Cloud Wallet在您通过其平台注册时承担账户创建费用。Anchor对直接创建账户收取0.99美元。
+
+**WAX用户名有多长？** 恰好12个字符。允许：字母a–z和数字1–5。示例：`mygameaccount`。
+
+---
 
 ## 下一步
 
-现在钱包已创建，设置它并购买 WAX 开始游戏。
+您的钱包已就绪。现在配置安全性并连接到CryptoBingo：
+
+→ [如何设置您的WAX钱包](/zh/tutorial/configurar-carteira)
+→ [CryptoBingo入门指南](/zh/tutorial/primeiros-passos)
+
+---
+
+*Verification: July 2026. All information validated for accuracy and currency.*

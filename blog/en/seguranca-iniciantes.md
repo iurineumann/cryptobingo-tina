@@ -60,7 +60,7 @@ In the traditional custodial world (banks), if you lose your password, the bank 
 Beginner or expert, review this list regularly:
 
 - [ ] Seed phrase stored securely (paper + safe, not digital)
-- [ ] 2FA enabled on email and custodial wallet
+- [ ] 2FA enabled on email and wallet (Cloud Wallet, Anchor)
 - [ ] Gaming wallet separate from main wallet
 - [ ] CryptoBingo URL verified (cryptobingo.bet)
 - [ ] Password manager configured
@@ -69,7 +69,7 @@ Beginner or expert, review this list regularly:
 
 ## Lost Access?
 
-If you lost access to your wallet, unfortunately we cannot help — that is the nature of self-custody. WAX Cloud Wallet allows email recovery because it is custodial. On Anchor, without the seed phrase there is no recovery.
+If you lost access to your wallet, unfortunately we cannot help — that is the nature of self-custody. WAX Cloud Wallet allows recovery via passkey or mnemonic. On Anchor, without the seed phrase there is no recovery.
 
 ## CryptoBingo Never Asks For
 

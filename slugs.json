@@ -1,0 +1,32 @@
+{
+  "blog": {
+    "o-que-e-blockchain": { "pt": "o-que-e-blockchain", "en": "o-que-e-blockchain", "zh": "o-que-e-blockchain" },
+    "carteiras-crypto": { "pt": "carteiras-crypto", "en": "carteiras-crypto", "zh": "carteiras-crypto" },
+    "wax-blockchain": { "pt": "wax-blockchain", "en": "wax-blockchain", "zh": "wax-blockchain" },
+    "cryptobingo-e-seguro": { "pt": "cryptobingo-e-seguro", "en": "cryptobingo-e-seguro", "zh": "cryptobingo-e-seguro" },
+    "modos-de-jogo": { "pt": "modos-de-jogo", "en": "modos-de-jogo", "zh": "modos-de-jogo" },
+    "estrategias-padroes": { "pt": "estrategias-padroes", "en": "estrategias-padroes", "zh": "estrategias-padroes" },
+    "provably-fair": { "pt": "provably-fair", "en": "provably-fair", "zh": "provably-fair" },
+    "smart-contracts": { "pt": "smart-contracts", "en": "smart-contracts", "zh": "smart-contracts" },
+    "nfts-na-wax": { "pt": "nfts-na-wax", "en": "nfts-na-wax", "zh": "nfts-na-wax" },
+    "tokenomics": { "pt": "tokenomics", "en": "tokenomics", "zh": "tokenomics" },
+    "seguranca-iniciantes": { "pt": "seguranca-iniciantes", "en": "seguranca-iniciantes", "zh": "seguranca-iniciantes" },
+    "rtp-85-porcento": { "pt": "rtp-85-porcento", "en": "rtp-85-porcento", "zh": "rtp-85-porcento" },
+    "futuro-gaming-onchain": { "pt": "futuro-gaming-onchain", "en": "futuro-gaming-onchain", "zh": "futuro-gaming-onchain" },
+    "roadmap": { "pt": "roadmap", "en": "roadmap", "zh": "roadmap" },
+    "rng-explicado": { "pt": "rng-explicado", "en": "rng-explicado", "zh": "rng-explicado" },
+    "testnet-lancamento": { "pt": "testnet-lancamento", "en": "testnet-lancamento", "zh": "testnet-lancamento" }
+  },
+  "tutorial": {
+    "criar-carteira-wax": { "pt": "criar-carteira-wax", "en": "criar-carteira-wax", "zh": "criar-carteira-wax" },
+    "configurar-carteira": { "pt": "configurar-carteira", "en": "configurar-carteira", "zh": "configurar-carteira" },
+    "comprar-wax": { "pt": "comprar-wax", "en": "comprar-wax", "zh": "comprar-wax" },
+    "comprar-tickets": { "pt": "comprar-tickets", "en": "comprar-tickets", "zh": "comprar-tickets" },
+    "depositar-sacar": { "pt": "depositar-sacar", "en": "depositar-sacar", "zh": "depositar-sacar" },
+    "receber-premios": { "pt": "receber-premios", "en": "receber-premios", "zh": "receber-premios" },
+    "verificar-sorteio": { "pt": "verificar-sorteio", "en": "verificar-sorteio", "zh": "verificar-sorteio" },
+    "recursos-wax": { "pt": "recursos-wax", "en": "recursos-wax", "zh": "recursos-wax" },
+    "staking-governance": { "pt": "staking-governance", "en": "staking-governance", "zh": "staking-governance" },
+    "primeiros-passos": { "pt": "primeiros-passos", "en": "primeiros-passos", "zh": "primeiros-passos" }
+  }
+}

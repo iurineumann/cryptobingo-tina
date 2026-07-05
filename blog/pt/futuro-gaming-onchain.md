@@ -27,7 +27,7 @@ O gaming on-chain deixou de ser experimental. Em 2025-2026, o setor amadureceu c
 
 **1. Blockchain Invisível**
 
-A tecnologia vai sumir da interface do usuário. Jogadores não vão mais saber (ou precisar saber) que estão usando blockchain. A WAX Cloud Wallet já aponta nessa direção — conta em 30 segundos com email e senha, sem seed phrase.
+A tecnologia vai sumir da interface do usuário. Jogadores não vão mais saber (ou precisar saber) que estão usando blockchain. A WAX Cloud Wallet já aponta nessa direção — conta em 30 segundos com passkeys (Face ID / Touch ID) e mnemônico opcional de 12 palavras.
 
 **2. GameFi 2.0**
 

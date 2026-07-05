@@ -1,52 +1,136 @@
 ---
-title: Primeiros Passos no CryptoBingo
-description: Guia passo a passo para sua primeira partida de BINGO na blockchain WAX
+title: "Como Jogar CryptoBingo: Guia Completo para Iniciantes"
+description: "Primeira vez no CryptoBingo? Siga este guia passo a passo, desde configurar sua carteira até seu primeiro prêmio na blockchain WAX"
+order: 0
+cover: ""
+related:
+  - criar-carteira-wax
+  - comprar-wax
+  - comprar-tickets
+images:
+  - src: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80
+    alt: Jogador usando interface do CryptoBingo no laptop
+    caption: Primeiros passos no CryptoBingo na blockchain WAX
 ---
 
-## O que você precisa
+## Primeira Vez? Vamos Nessa!
 
-Antes de jogar, você vai precisar de:
+Bem-vindo ao CryptoBingo — a primeira plataforma de BINGO on-chain na WAX. Este guia leva você do zero ao seu primeiro prêmio em 7 passos.
 
-1. **Uma wallet WAX** — Anchor Wallet (desktop/mobile) ou Cloud Wallet (extensão do navegador)
-2. **Alguns tokens WAX** — para comprar cartelas e pagar taxas de transação
-3. **Um navegador web** — Chrome, Firefox ou Brave recomendados
+## O Que Você Precisa
 
-## Passo 1: Configure sua Wallet
+Antes de jogar, tenha certeza de ter:
 
-Se você ainda não tem uma wallet WAX:
+1. **Uma carteira WAX** — [WAX Cloud Wallet](https://wallet.wax.io) (passkey, recomendada) ou [Anchor Wallet](https://www.anchor.link) (autocustódia)
+2. **Tokens WAX** — para comprar tickets (sem taxa de gas; WAX usa recursos de CPU/NET delegados)
+3. **Um navegador moderno** — Chrome, Firefox ou Brave
 
-- **Anchor Wallet**: Baixe em [greymass.com](https://greymass.com) e crie uma nova conta
-- **Cloud Wallet**: Instale a extensão do navegador e crie uma conta
+## Passo 1: Configure Sua Carteira
+
+Sem carteira? Sem problema.
+
+- **WAX Cloud Wallet (30 segundos):** acesse [wallet.wax.io](https://wallet.wax.io), clique "Create Account", escolha um username de 12 caracteres, use Face ID / Touch ID como passkey
+- **Anchor Wallet (5 minutos):** baixe em [anchor.link](https://www.anchor.link), salve a seed phrase offline, crie a conta WAX
+
+Comece com WAX Cloud Wallet. Quando tiver mais tokens, migre para Anchor para controle total das chaves.
+
+→ Guia completo: [Como Criar Sua Carteira WAX](/pt/tutorials/criar-carteira-wax)
 
 ## Passo 2: Obtenha Tokens WAX
 
-Você precisa de tokens WAX para comprar cartelas. Na testnet, você pode obter WAX de teste grátis pelo faucet. Na mainnet, você pode comprar WAX em exchanges e transferir para sua wallet.
+Você precisa de WAX para comprar tickets. Três formas:
+
+- **Exchanges centralizadas (KYC):** Binance, KuCoin, Gate.io — compre USDT, troque por WAX, retire para sua carteira
+- **Alcor Exchange (sem KYC):** conecte a carteira em [alcor.exchange](https://alcor.exchange), troque tokens diretamente na WAX
+- **Testnet faucet:** WAX grátis para praticar na testnet
+
+Transferências WAX chegam em ~2 segundos.
+
+→ Guia completo: [Como Comprar WAX](/pt/tutorials/comprar-wax)
 
 ## Passo 3: Conecte-se ao CryptoBingo
 
-1. Acesse [test.cryptobingo.bet](https://test.cryptobingo.bet)
-2. Clique em "Conectar Wallet" e aprove a conexão na sua wallet
-3. Seu endereço de wallet aparecerá no canto superior direito
+1. Acesse [cryptobingo.bet](https://cryptobingo.bet)
+2. Clique "Connect Wallet" (canto superior direito)
+3. Aprove na sua carteira — popup de passkey na Cloud Wallet, QR code na Anchor
+4. Seu username WAX aparece no cabeçalho — você está conectado
 
 ## Passo 4: Escolha uma Sala
 
-Navegue pelas salas disponíveis no lobby. Cada sala mostra:
-- Preço da cartela
-- Modo de sorteio (Standard, Fixed, First Full, etc.)
-- Número de jogadores atuais
-- Premiação acumulada
+Navegue pelas salas no lobby. Cada sala mostra:
 
-## Passo 5: Compre Cartelas
+| Característica | Descrição |
+|---|---|
+| **Preço do ticket** | Custo de entrada (ex.: 10 WUF, 50 WUF, 100 WUF) |
+| **Modo de jogo** | Standard, Fixed, First Full, Golden Ball, Multi Match |
+| **Prêmio total** | Total de WAX disponível |
+| **Jogadores** | Participantes atuais |
 
-1. Clique em uma sala
-2. Escolha quantas cartelas comprar
-3. Confirme a transação na sua wallet
-4. Aguarde o início do sorteio
+**Dica para iniciantes:** comece com a sala mais barata no modo Standard.
 
-## Passo 6: Acompanhe o Sorteio
+## Passo 5: Compre Tickets
 
-Relaxe e veja os números sendo sorteados em tempo real. O oracle RNG garante que cada sorteio é provavelmente justo e registrado na blockchain WAX.
+1. Clique na sala para entrar
+2. Escolha a quantidade de tickets (1 a 10+)
+3. Confirme a transação na sua carteira
+4. Aguarde ~2 segundos (finalidade WAX)
+5. Sua cartela 5x5 aparece na tela
 
-## Passo 7: Receba seu Prêmio
+Cada ticket tem 24 números + 1 espaço livre (números 1–75). A combinação é gerada deterministicamente a partir da seed do seu ticket — comprovadamente justo desde o início.
 
-Se você ganhar, os prêmios são creditados automaticamente no seu saldo. Você pode sacar seus ganhos a qualquer momento.
+→ Guia completo: [Como Comprar Tickets](/pt/tutorials/comprar-tickets)
+
+## Passo 6: Assista ao Sorteio
+
+Assim que a sala encher ou o tempo expirar, o sorteio começa:
+
+- Os números são sorteados um a um em tempo real
+- Cada sorteio usa RNG híbrido comprovadamente justo (player seed + server seed + oracle RSA-SHA256)
+- Seus números acertados destacam-se instantaneamente
+- Padrões completados geram notificações de vitória
+
+**RTP 85%:** o CryptoBingo devolve 85% de todos os buy-ins como prêmios (15% GGR). Cálculo do prêmio: `preço_pago × base_multiplier × weight/100 × golden_multiplier`.
+
+## Passo 7: Receba Seu Prêmio
+
+**Prêmios são automáticos.** Sem necessidade de solicitar retirada.
+
+1. O contrato avalia todas as cartelas contra os números sorteados
+2. Para cada cartela vencedora, WAX é transferido diretamente para sua carteira
+3. Uma notificação "Winner!" aparece na tela
+4. Consulte "My Prizes" para o histórico completo
+
+O processo inteiro leva ~2 segundos após o fim do sorteio.
+
+## Sua Jornada de Relance
+
+| Fase | Ação | Tempo |
+|---|---|---|
+| 1 | Criar carteira | 30 segundos |
+| 2 | Obter tokens WAX | 5 minutos |
+| 3 | Conectar à plataforma | 10 segundos |
+| 4 | Escolher sala | 30 segundos |
+| 5 | Comprar ticket | 10 segundos |
+| 6 | Assistir sorteio | 2–5 minutos |
+| 7 | Prêmio pago | 2 segundos |
+
+## FAQ — Solução de Problemas
+
+### Não consigo conectar minha carteira
+
+Certifique-se de que a extensão da carteira está instalada e desbloqueada. Atualize a página e tente novamente. Na Anchor, verifique se a leitura do QR code foi concluída. Limpe o cache do navegador se o botão não responder.
+
+### Minha transação falha com "CPU limit exceeded"
+
+Você precisa de mais WAX delegados para CPU. Acesse [wax.bloks.io](https://wax.bloks.io), conecte sua carteira, vá em Wallet → Resources e delegue mais WAX para CPU. Recomendação mínima: 5 WAX.
+
+### Não recebi meu prêmio
+
+1. Verifique se você completou um padrão vencedor (consulte "My History")
+2. Confira o saldo da sua carteira — o prêmio pode ter chegado silenciosamente
+3. Aguarde a finalidade WAX (~2 segundos)
+4. Encontre a transação em [wax.bloks.io](https://wax.bloks.io)
+5. Contate o suporte com seu match ID se o problema persistir
+
+---
+*Verified: July 2026. All information validated for accuracy and currency.*

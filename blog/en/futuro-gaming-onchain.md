@@ -27,7 +27,7 @@ On-chain gaming is no longer experimental. In 2025-2026, the sector matured with
 
 **1. Invisible Blockchain**
 
-The technology will disappear from the user interface. Players will no longer know (or need to know) they are using blockchain. WAX Cloud Wallet already points in this direction — 30-second account with email and password, no seed phrase.
+The technology will disappear from the user interface. Players will no longer know (or need to know) they are using blockchain. WAX Cloud Wallet already points in this direction — 30-second account with passkeys (Face ID / Touch ID) and optional 12-word mnemonic.
 
 **2. GameFi 2.0**
 

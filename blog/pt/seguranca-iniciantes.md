@@ -60,7 +60,7 @@ No mundo custodial tradicional (bancos), se você perde a senha, o banco recuper
 Novato ou experiente, revise esta lista regularmente:
 
 - [ ] Seed phrase guardada em local seguro (papel + cofre, não digital)
-- [ ] 2FA ativado no email e carteira custodial
+- [ ] 2FA ativado no email e carteira (Cloud Wallet, Anchor)
 - [ ] Carteira de jogo separada da carteira principal
 - [ ] URL do CryptoBingo verificada (cryptobingo.bet)
 - [ ] Gerenciador de senhas configurado
@@ -69,7 +69,7 @@ Novato ou experiente, revise esta lista regularmente:
 
 ## Perdeu Acesso?
 
-Se você perdeu acesso à carteira, infelizmente não podemos ajudar — essa é a natureza da autocustódia. A WAX Cloud Wallet permite recuperação por email por ser custodial. Na Anchor, sem seed phrase não há recuperação.
+Se você perdeu acesso à carteira, infelizmente não podemos ajudar — essa é a natureza da autocustódia. A WAX Cloud Wallet permite recuperação via passkey ou mnemônico. Na Anchor, sem seed phrase não há recuperação. Na Anchor, sem seed phrase não há recuperação.
 
 ## CryptoBingo Nunca Pede
 

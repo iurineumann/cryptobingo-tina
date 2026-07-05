@@ -71,7 +71,7 @@ images: []
 ## 2027年第二季度及以后
 
 **扩展**
-- [ ] 扩展到其他Antelope区块链（EOS、Telos）
+- [ ] 扩展到其他Antelope区块链（Vaulta、Telos）
 - [ ] 去中心化交易所集成
 - [ ] 联盟和推荐计划
 
