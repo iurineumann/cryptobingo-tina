@@ -7,27 +7,27 @@
     },
     "cryptobingo-e-seguro": {
       "pt": "cryptobingo-e-seguro",
-      "en": "cryptobingo-e-seguro",
+      "en": "is-cryptobingo-safe",
       "zh": "cryptobingo-e-seguro"
     },
     "estrategias-padroes": {
       "pt": "estrategias-padroes",
-      "en": "estrategias-padroes",
+      "en": "pattern-strategies",
       "zh": "estrategias-padroes"
     },
     "futuro-gaming-onchain": {
       "pt": "futuro-gaming-onchain",
-      "en": "futuro-gaming-onchain",
+      "en": "future-of-onchain-gaming",
       "zh": "futuro-gaming-onchain"
     },
     "modos-de-jogo": {
       "pt": "modos-de-jogo",
-      "en": "modos-de-jogo",
+      "en": "game-modes",
       "zh": "modos-de-jogo"
     },
     "nfts-na-wax": {
       "pt": "nfts-na-wax",
-      "en": "nfts-na-wax",
+      "en": "nfts-on-wax",
       "zh": "nfts-na-wax"
     },
     "o-que-e-blockchain": {
@@ -42,7 +42,7 @@
     },
     "rng-explicado": {
       "pt": "rng-explicado",
-      "en": "rng-explicado",
+      "en": "how-rng-works",
       "zh": "rng-explicado"
     },
     "roadmap": {
@@ -52,12 +52,12 @@
     },
     "rtp-85-porcento": {
       "pt": "rtp-85-porcento",
-      "en": "rtp-85-porcento",
+      "en": "rtp-85-percent",
       "zh": "rtp-85-porcento"
     },
     "seguranca-iniciantes": {
       "pt": "seguranca-iniciantes",
-      "en": "seguranca-iniciantes",
+      "en": "digital-security-for-beginners",
       "zh": "seguranca-iniciantes"
     },
     "smart-contracts": {
@@ -67,7 +67,7 @@
     },
     "testnet-lancamento": {
       "pt": "testnet-lancamento",
-      "en": "testnet-lancamento",
+      "en": "cryptobingo-testnet-launch",
       "zh": "testnet-lancamento"
     },
     "tokenomics": {
@@ -89,12 +89,12 @@
     },
     "comprar-wax": {
       "pt": "comprar-wax",
-      "en": "comprar-wax",
+      "en": "how-to-buy-wax",
       "zh": "comprar-wax"
     },
     "configurar-carteira": {
       "pt": "configurar-carteira",
-      "en": "configurar-carteira",
+      "en": "how-to-set-up-wallet",
       "zh": "configurar-carteira"
     },
     "criar-carteira-wax": {
@@ -104,32 +104,32 @@
     },
     "depositar-sacar": {
       "pt": "depositar-sacar",
-      "en": "depositar-sacar",
+      "en": "how-to-deposit-withdraw",
       "zh": "depositar-sacar"
     },
     "primeiros-passos": {
       "pt": "primeiros-passos",
-      "en": "primeiros-passos",
+      "en": "getting-started",
       "zh": "primeiros-passos"
     },
     "receber-premios": {
       "pt": "receber-premios",
-      "en": "receber-premios",
+      "en": "how-to-claim-prizes",
       "zh": "receber-premios"
     },
     "recursos-wax": {
       "pt": "recursos-wax",
-      "en": "recursos-wax",
+      "en": "wax-resources",
       "zh": "recursos-wax"
     },
     "staking-governance": {
       "pt": "staking-governance",
-      "en": "staking-governance",
+      "en": "staking-and-governance",
       "zh": "staking-governance"
     },
     "verificar-sorteio": {
       "pt": "verificar-sorteio",
-      "en": "verificar-sorteio",
+      "en": "how-to-verify-draw",
       "zh": "verificar-sorteio"
     }
   }
